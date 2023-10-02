@@ -52,4 +52,5 @@ python -m game
 pytest
 ```
 
-Также доступен запуск через jupyter: 'notebooks/game.ipynb'
+**Notebooks**  
+Также доступен запуск через jupyter: 'notebooks/game.ipynb' (devcontainer настроен для запуска jupyter через vscode).
