@@ -3,8 +3,8 @@
 	"dockerComposeFile": [
 		"../docker-compose.yml"
 	  ],
-	"service": "notebook",
-	"runServices": ["notebook"],
+	"service": "guess_num",
+	"runServices": ["guess_num"],
 
 	"workspaceFolder": "/code",
 	"customizations": {
