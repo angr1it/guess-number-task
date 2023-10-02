@@ -7,12 +7,12 @@ def solve(
     """
     Бинарный поиск скрытого числа.
     Args:
-        hidden (HiddenNum): Загаданное число.
-
+        hidden (HiddenNum): загаданное число;
+        min_num (int): левая граница отрезка поиска;
+        max_num (int): правая граница;
     Returns:
-        int: угаданное число
-
-        int: число попыток
+        * int: угаданное число; либо None, если не найдено;
+        * int: число попыток.
     """
     left = min_num
     right = max_num
@@ -31,4 +31,4 @@ def solve(
     if not hidden.guess(right):
         return right, hidden.count
 
-    return -1, -1  # Числа нет в диапозоне
+    return None, hidden.count  # Числа нет в диапозоне
