@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  guess_num:
+  master_ds:
     container_name: guess-number-task-notebook
     build:
       context: .

@@ -43,11 +43,11 @@
 **Запуск через Docker**  
 ```
 docker compose build
-docker compose run --rm guess_num python -m homeworks.guess_number.game
+docker compose run --rm master_ds python -m homeworks.guess_number.game
 ```
 тесты:
 ```
-docker compose run --rm guess_num pytest
+docker compose run --rm master_ds pytest
 ```
 Также доступен запуск через devcontainer в vscode.
 

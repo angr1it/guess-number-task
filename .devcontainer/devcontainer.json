@@ -1,10 +1,10 @@
 {
-	"name": "guess-number-task",
+	"name": "master_ds",
 	"dockerComposeFile": [
 		"../docker-compose.yml"
 	  ],
-	"service": "guess_num",
-	"runServices": ["guess_num"],
+	"service": "master_ds",
+	"runServices": ["master_ds"],
 
 	"workspaceFolder": "/code",
 	"customizations": {
