@@ -1,6 +1,6 @@
-from game.hidden_num import HiddenNum
-from game.solvers.binary import solve
-from game.score import score_game
+from .hidden_num import HiddenNum
+from .solvers.binary import solve
+from .score import score_game
 
 
 def game_core_v3(number: int = 1) -> int:

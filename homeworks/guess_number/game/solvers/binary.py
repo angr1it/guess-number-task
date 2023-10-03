@@ -1,4 +1,4 @@
-from game.hidden_num import HiddenNum
+from ..hidden_num import HiddenNum
 
 
 def solve(
