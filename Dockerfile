@@ -1,4 +1,4 @@
-FROM python:3.11.1-slim
+FROM --platform=linux/amd64 python:3.10.12-slim
 
 WORKDIR /code
 
@@ -7,6 +7,10 @@ WORKDIR /code
 ENV PYTHONDONTWRITEBYTECODE 1
 # PYTHONUNBUFFERED: Prevents Python from buffering stdout and stderr (equivalent to python -u option)
 ENV PYTHONUNBUFFERED 1
+
+RUN apt-get update
+RUN apt-get install zip -y
+RUN apt-get install git -y
 
 COPY requirements.txt .
 

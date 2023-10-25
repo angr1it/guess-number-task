@@ -1,2 +1,8 @@
-numpy==1.26.0
-pytest==7.4.2
+numpy
+pytest
+ipykernel
+scipy
+plotly
+nbformat
+matplotlib
+requests
