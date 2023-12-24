@@ -6,3 +6,10 @@ plotly
 nbformat
 matplotlib
 requests
+pandas
+sympy
+scikit-learn
+seaborn
+torch
+tqdm
+scikit-image

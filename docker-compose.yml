@@ -2,9 +2,10 @@ version: '3.8'
 
 services:
   master_ds:
-    container_name: guess-number-task-notebook
+    container_name: master_ds
     build:
       context: .
       dockerfile: Dockerfile
+
     volumes:
       - .:/code
