@@ -11,6 +11,8 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update
 RUN apt-get install zip -y
 RUN apt-get install git -y
+RUN apt-get install wget
+RUN apt-get install unzip
 
 COPY requirements.txt .
 
