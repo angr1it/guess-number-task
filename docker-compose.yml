@@ -6,6 +6,25 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-
-    volumes:
+  volumes:
       - .:/code
+  networks:
+      - master_ds
+
+  dbs_postgre:
+    profiles: ["hw_dbs"]
+    container_name: master_ds_dbs_postgre
+    image: postgres
+    restart: always
+    volumes:
+      - ./data/dbs_postgre:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: admin
+    ports:
+      - 5432:5432
+    networks:
+      - master_ds
+
+networks:
+  master_ds:
+    driver: bridge
