@@ -8,11 +8,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 # PYTHONUNBUFFERED: Prevents Python from buffering stdout and stderr (equivalent to python -u option)
 ENV PYTHONUNBUFFERED 1
 
-RUN apt-get update
-RUN apt-get install zip -y
-RUN apt-get install git -y
-RUN apt-get install wget
-RUN apt-get install unzip
+RUN apt update
+RUN apt install zip wget git unzip -y
 
 COPY requirements.txt .
 

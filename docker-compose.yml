@@ -6,10 +6,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-  volumes:
-      - .:/code
-  networks:
-      - master_ds
+    volumes:
+        - .:/code
+    networks:
+        - master_ds
 
   dbs_postgre:
     profiles: ["hw_dbs"]

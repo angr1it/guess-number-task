@@ -14,3 +14,7 @@ gdown
 pandas
 seaborn
 wget
+openpyxl
+psycopg2-binary
+sqlalchemy
+sqlalchemy-utils
