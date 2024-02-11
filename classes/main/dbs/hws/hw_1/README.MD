@@ -3,3 +3,8 @@
 
 #### Диаграма
 ![image.png](./customer_and_transaction__2_diagram.png)
+
+#### Запуск контейнера с бд:
+```
+docker-compose --profile hw_dbs up
+```

@@ -24,9 +24,9 @@ CREATE TABLE "customer" (
   "last_name" varchar(32),
   "gender" varchar(6),
   "dob" date,
-  "job_title" text,
-  "job_industry_category" text,
-  "wealth_segment" text,
+  "job_title" varchar(64),
+  "job_industry_category" varchar(64),
+  "wealth_segment" varchar(32),
   "deceased_indicator" char(1),
   "owns_car" bool
 );
