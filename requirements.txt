@@ -18,3 +18,4 @@ openpyxl
 psycopg2-binary
 sqlalchemy
 sqlalchemy-utils
+ipython-sql
