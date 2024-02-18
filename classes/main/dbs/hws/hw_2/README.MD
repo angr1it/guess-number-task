@@ -1,7 +1,10 @@
 ### Решение домашнего задания 2 (Системы хранения и обработки данных)
-см. [notebook](notebook.ipynb)
+1. [Notebook](notebook.ipynb) решения с ipython-sql
+2. [Скрипт sql запросов](queries.sql)
+3. [Скриншоты dbeaver](screenshots.md)
 
-#### SQL в jupyter
+
+### SQL в jupyter
 
 ```
 !pip install ipython-sql
@@ -18,9 +21,12 @@
 
 Выполнение sql-запроса:
 ```
-%sql SELECT * FROM customers
+%sql SELECT * FROM customer
 ```
-#### Запуск контейнера с бд:
+
+
+
+### Запуск контейнера с бд:
 ```
 docker-compose --profile hw_dbs up
 ```
