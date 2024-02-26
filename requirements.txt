@@ -19,3 +19,5 @@ psycopg2-binary
 sqlalchemy
 sqlalchemy-utils
 ipython-sql
+optuna
+colorama
