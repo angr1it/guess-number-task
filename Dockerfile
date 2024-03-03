@@ -9,7 +9,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 RUN apt update
-RUN apt install zip wget git unzip -y
+RUN apt install zip wget git tar curl unzip -y
 
 COPY requirements.txt .
 
