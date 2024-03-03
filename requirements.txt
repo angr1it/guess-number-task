@@ -21,3 +21,4 @@ sqlalchemy-utils
 ipython-sql
 optuna
 colorama
+pymongo
