@@ -1,0 +1,5 @@
+data_folder = "classes/main/data_engineering/hws/hw1/data"
+process_folder = f"{data_folder}/process"
+tsv_folder = f"{data_folder}/tsv"
+download_host = "https://www.ncbi.nlm.nih.gov"
+link_download_dataset = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68849"

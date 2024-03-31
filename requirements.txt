@@ -22,3 +22,5 @@ ipython-sql
 optuna
 colorama
 pymongo
+luigi
+beautifulsoup4
