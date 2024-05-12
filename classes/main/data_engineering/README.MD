@@ -3,3 +3,4 @@
 #### Домашние задания
 
 1. [hw 1](./hws/hw1/README.MD)
+1. [hw 2](./hws/hw2/README.MD)
