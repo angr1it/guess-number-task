@@ -1,12 +1,11 @@
 import logging
 import os
 from datetime import date, timedelta
-from functools import reduce
 from pathlib import Path
 
+import pendulum
 import pandas as pd
 from pandas import DataFrame
-import pendulum
 from airflow.decorators import dag, task
 
 logger = logging.getLogger(__name__)

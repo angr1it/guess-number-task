@@ -1,11 +1,11 @@
 import logging
 import os
 from datetime import date, timedelta
-from functools import reduce
 from pathlib import Path
+
+import pendulum
 import pandas as pd
 from pandas import DataFrame
-import pendulum
 from airflow.decorators import dag, task
 
 logger = logging.getLogger(__name__)
@@ -92,7 +92,7 @@ def get_activity_table(
     if os.path.exists(csv_target):
         profit_table.to_csv(csv_target, index=False)
     else:
-        profit_table.to_csv(csv_target, mode='a', header=False, index=False)
+        profit_table.to_csv(csv_target, mode="a", header=False, index=False)
     logger.info("Таблица флагов активности сохранена.")
 
 

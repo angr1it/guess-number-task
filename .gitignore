@@ -1,7 +1,7 @@
 data/
 .DS_store
 mongodb/
-
+!classes/main/data_engineering/hws/hw2/data
 
 # https://github.com/github/gitignore/blob/main/Python.gitignore
 # Byte-compiled / optimized / DLL files
